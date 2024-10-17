@@ -1,0 +1,51 @@
+"int main() {" parte principal do codigo
+
+
+git commit
+git add
+git status
+git push
+git pull
+
+// Adição de números
+cout << 3 + 3 << endl;
+// Subtraçáo de números
+cout << 3 - 3 << endl;
+// Multiplicação de números
+cout << 3 * 3 << endl;
+// Divisão de números 
+cout << 5 / 3 << endl;
+// Resto da divisão
+cout << 5 % 3 << endl;
+
+
+// Adição de números
+// cout << 3 + 3 << endl;
+// Subtraçáo de números
+// cout << 3 - 3 << endl;
+// Multiplicação de números
+// cout << 3 * 3 << endl;
+// Divisão de números 
+// cout << 5 / 3 << endl;
+// Resto da divisão
+// cout << 5 % 3 << endl;
+
+// Variáveis sempre minúsculas ou camel, nunca deve começar por um número
+int qntLivros = 5;
+int x;
+x = 25;
+cout << qntLivros * 2 << endl;
+cout << qntLivros + 5 << endl;
+cout << qntLivros - 2 << endl;
+/* Ou pode usar...
+cout << qntLivros * x << endl;
+cout << qntLivros + x << endl;
+cout << qntLivros - x << endl;
+*/
+
+bool isTrue = true;
+
+
+
+cout << "Hello World." << endl; //"Menor=<<" "Maior=>>"
+return 0;
