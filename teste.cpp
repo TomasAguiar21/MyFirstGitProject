@@ -71,3 +71,41 @@ cout << x * PI * valor << endl;
  return 0;
 }
 
+#include <iostream>
+
+using namespace std;
+
+
+
+int main() {
+
+    float metros;
+    long milimetros;
+
+
+    cout << "introduza um número em metros: ";
+    cin >> metros;
+
+    milimetros = metros * 1000;
+
+    cout << "a medida em milimetros é: " << milimetros << "mm" << endl;
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int horas,money;
+const double IRS = 0.125;
+int main()
+{
+cout <<"digite a quantidade de horas trabalhadas";
+cin >> horas;
+cout <<"digite quando recebe por hora";
+cin >> money;
+float desconto = horas * money *IRS;
+cout << "o dinherio recebido ja em conta o IRS é de : "
+<< horas  * money -desconto << endl;
+}
+
